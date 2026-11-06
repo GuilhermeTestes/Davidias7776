@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decolonialidade e Anti-Racismo ✊🏾</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+        }
+
+        :root {
+            --cor-escura: #2C1810;
+            --cor-destaque: #D4A574;
+            --cor-clara: #FDF6EC;
+            --cor-texto: #3D2B1F;
+            --sombra: 0 8px 24px rgba(44, 24, 16, 0.12);
+        }
+
+        body {
+            background-color: var(--cor-clara);
+            color: var(--cor-texto);
+            line-height: 1.8;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2C1810, #5A3A28);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header::after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 4px;
+            background: var(--cor-destaque);
+            margin: 15px auto 0;
+            border-radius: 2px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .credito-principal {
+            margin-top: 15px;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .credito-colaboracao {
+            margin-top: 8px;
+            font-size: 0.95rem;
+            opacity: 0.75;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 0 25px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: var(--cor-escura);
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--cor-destaque);
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: var(--sombra);
+            margin-bottom: 25px;
+        }
+
+        .topicos {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: var(--sombra);
+            margin-bottom: 30px;
+        }
+
+        .topico-item {
+            padding: 18px 22px;
+            margin: 12px 0;
+            background: linear-gradient(90deg, var(--cor-clara), #fff);
+            border-radius: 12px;
+            border-left: 4px solid var(--cor-destaque);
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: transform 0.3s ease;
+        }
+
+        .topico-item:hover {
+            transform: translateX(8px);
+        }
+
+        .resumo {
+            margin-top: 25px;
+            padding: 25px;
+            background: var(--cor-clara);
+            border-radius: 14px;
+            border-left: 5px solid var(--cor-destaque);
+            font-size: 1.05rem;
+        }
+
+        .integrantes {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: var(--sombra);
+            margin-bottom: 30px;
+        }
+
+        .integrantes h2 {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 20px;
+        }
+
+        .aluno {
+            padding: 15px 20px;
+            margin: 10px 0;
+            background: var(--cor-clara);
+            border-radius: 10px;
+            border-left: 4px solid var(--cor-destaque);
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        .personalidade {
+            background: white;
+            padding: 25px;
+            border-radius: 16px;
+            border-left: 5px solid var(--cor-destaque);
+            box-shadow: var(--sombra);
+            margin-bottom: 20px;
+        }
+
+        .poema-box {
+            background: #fff9f0;
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 4px solid var(--cor-destaque);
+            font-style: italic;
+            margin: 15px 0;
+        }
+
+        .musica-item {
+            background: white;
+            padding: 25px;
+            border-radius: 16px;
+            box-shadow: var(--sombra);
+            margin-bottom: 25px;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 12px;
+            margin-top: 15px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 12px;
+        }
+
+        footer {
+            background: var(--cor-escura);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            section { margin: 40px auto; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>✊🏾 Decolonialidade e Anti-Racismo</h1>
+        <p>Descolonizar mentes, construir igualdade, valorizar a diversidade</p>
+        <p class="credito-principal">Site feito por Guilherme Kin Nose</p>
+        <p class="credito-colaboracao">Ajuda e colaboração de Davi Dias Barbosa ✨</p>
+    </header>
+
+    <!-- Integrantes da Turma -->
+    <section class="integrantes">
+        <h2>👥 Integrantes do Trabalho</h2>
+        <div class="aluno">Davi Dias</div>
+        <div class="aluno">Kauã Lacerda</div>
+    </section>
+
+    <!-- Tópicos do Trabalho -->
+    <section class="topicos">
+        <h2>📋 Temas do Trabalho</h2>
+        <div class="topico-item">💬 Analisar linguagens, expressões e piadas racistas</div>
+        <div class="topico-item">📚 Educação Antirracista</div>
+        <div class="topico-item">📺 Representatividade nas telas e nas mídias sociais</div>
+        <div class="topico-item">🌍 Decolonialidade e Antirracismo</div>
+
+        <div class="resumo">
+            <strong>📝 Resumo:</strong> O trabalho aborda a importância de analisar e combater linguagens, expressões e piadas racistas, que muitas vezes se tornam invisíveis mas perpetuam a discriminação. A partir disso, defende-se a educação antirracista como caminho fundamental para formar consciências, desconstruir preconceitos e promover igualdade desde cedo. Discute-se também a necessidade de ampliar a representatividade de pessoas negras nas telas e nas mídias sociais, garantindo que elas apareçam de forma digna e protagonista, e não apenas em papéis estereotipados. Por fim, conecta-se tudo à decolonialidade e ao antirracismo: reconhecer e desmontar as estruturas herdadas do passado colonial é essencial para construir uma sociedade justa, onde todos têm os mesmos direitos e reconhecimento.
+        </div>
+    </section>
+
+    <!-- Sobre o Tema -->
+    <section>
+        <h2>O que é Decolonialidade e Antirracismo?</h2>
+        <div class="card">
+            <p>A <strong>decolonialidade</strong> é um movimento de pensamento e ação que busca desconstruir as estruturas de poder, conhecimento e cultura impostas pela colonização. Reconhece que o racismo não é apenas um preconceito, mas um sistema que foi construído ao longo de séculos e que ainda hoje molda a sociedade brasileira.</p>
+            <br>
+            <p>Ser <strong>antirracista</strong> não é apenas "não ser racista", mas sim agir ativamente para combater o racismo em todas as suas formas — nas atitudes, nas leis, na cultura e nas relações sociais. É reconhecer que a língua falada no Brasil, os saberes, a cultura e as desigualdades carregam as marcas desse passado colonial.</p>
+        </div>
+    </section>
+
+    <!-- Personalidades Negras -->
+    <section>
+        <h2>Representantes Negros que Fizeram História 🖤</h2>
+
+        <div class="personalidade">
+            <h3>🌍 Heleieth Saffioti — A língua e a sociedade brasileira</h3>
+            <p><strong>Heleieth I.B. Saffioti</strong> foi uma das maiores sociólogas brasileiras. Ela nos mostrou como a língua e a cultura faladas no Brasil foram construídas sob a influência colonial, refletindo e reproduzindo desigualdades de raça e gênero. A linguagem não é neutra: ela carrega histórias de poder e dominação, e descolonizar a fala é também um ato de justiça.</p>
+        </div>
+
+        <div class="personalidade">
+            <h3>📖 Carolina Maria de Jesus — A voz da favela</h3>
+            <p>Catadora de papéis na favela do Canindé (SP), Carolina escreveu <strong>"Quarto de Despejo: Diário de uma Favelada"</strong> (1960), obra traduzida para mais de 13 idiomas. Com simplicidade e força, registrou o cotidiano de fome, racismo e luta, dando voz a milhões de brasileiros invisibilizados. Mostrou que a escrita pode ser um instrumento de denúncia e transformação.</p>
+        </div>
+
+        <div class="personalidade">
+            <h3>✍🏾 Conceição Evaristo — A escrevivência</h3>
+            <p>Escritora mineira que criou o conceito de <strong>"escrevivência"</strong>: uma escrita que nasce da própria experiência e da memória coletiva de mulheres negras. Sua obra valoriza a identidade negra, a ancestralidade e a resistência, mostrando que contar histórias negras é também descolonizar a literatura.</p>
+        </div>
+    </section>
+
+    <!-- Poemas -->
+    <section>
+        <h2>Poemas de Resistência 📝</h2>
+
+        <div class="poema-box">
+            <h4>Encontrei minhas origens — Oliveira Silveira</h4>
+            <p>
+                Encontrei minhas origens<br>
+                em velhos arquivos<br>
+                que nunca foram lidos.<br>
+                Encontrei minhas origens<br>
+                em todas as vozes<br>
+                negras, silenciadas.<br>
+                Encontrei.<br>
+                E hoje canto a minha cor,<br>
+                a minha raiz,<br>
+                a minha força!
+            </p>
+        </div>
+
+        <div class="poema-box">
+            <h4>Negro — Adão Ventura</h4>
+            <p>
+                Não peço perdão por ser quem sou,<br>
+                não me encolho diante do teu olhar.<br>
+                A cor da minha pele não é mancha,<br>
+                é medalha, é raiz, é lugar.<br>
+                O sangue que corre em mim<br>
+                veio de longe, carrega história,<br>
+                e não vai parar de lutar!
+            </p>
+        </div>
+    </section>
+
+    <!-- Músicas -->
+    <section>
+        <h2>Músicas que Cantam a Luta 🎵</h2>
+
+        <div class="musica-item">
+            <h4>🎶 Vidas Negras Importam — Martinho da Vila</h4>
+            <p>Uma poderosa canção de 2021 que denuncia o racismo e proclama com força: <em>"Uma vida negra importa, e quem assim não pensa, tem a consciência torta."</em> Um hino de igualdade e respeito de um dos maiores nomes da música brasileira.</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/-IusmZFN_4w" title="Vidas Negras Importam — Martinho da Vila" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="musica-item">
+            <h4>🎶 A Mão da Limpeza — Gilberto Gil</h4>
+            <p>Denuncia como o trabalho do negro foi usado para "limpar" a sujeira feita pelo poder colonial. Uma das canções mais fortes sobre justiça e memória.</p>
+        </div>
+
+        <div class="musica-item">
+            <h4>🎶 Zumbi — Jorge Ben Jor</h4>
+            <p>Homenagem ao líder dos Palmares, símbolo maior da resistência negra no Brasil. A música mantém viva a memória da luta pela liberdade.</p>
+        </div>
+
+        <div class="musica-item">
+            <h4>🎶 AmarElo — Emicida</h4>
+            <p>Hino moderno sobre a luta e a beleza de ser negro no Brasil. "Amar é lindo, é por isso que eu luto" — celebra a identidade negra e a esperança de transformação.</p>
+        </div>
+    </section>
+
+    <!-- Representatividade na Mídia -->
+    <section>
+        <h2>Representatividade nas Telas e Mídias 📺</h2>
+        <div class="card">
+            <p>A presença de pessoas negras na mídia vai muito além de "aparecer": é sobre ver-se representado, reconhecido e valorizado. Quando a representação é justa, ela inspira, educa e transforma:</p>
+            <br>
+            <ul style="margin-left: 20px; margin-bottom: 15px;">
+                <li>📊 A população negra é mais de 50% do Brasil, mas na TV e publicidade ainda aparece de forma desigual</li>
+                <li>🎭 Nas novelas, apenas cerca de 8% dos papéis principais são de pessoas negras</li>
+                <li>✨ <strong>Taís Araújo</strong> foi a primeira protagonista negra em novelas da Globo — um marco histórico</li>
+                <li>📰 Jornalistas como <strong>Maria Júlia Coutinho</strong> abrem caminho para novas gerações</li>
+                <li>👑 <strong>Deise Nunes</strong>, primeira Miss Brasil negra (1986), mostrou que "a minha raça é linda!"</li>
+            </ul>
+            <p style="font-weight: 500; margin-top: 10px;">
+                Representatividade não é só aparecer — é protagonizar, contar histórias, ocupar espaços de poder. É descolonizar a tela! 💛
+            </p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>✊🏾 Projeto Decolonialidade e Anti-Racismo — 2026</p>
+    </footer>
+
+</body>
+</html>
